@@ -8,12 +8,6 @@ $(document).ready(function(){
   var captionInput = $("#caption_input").val()
   // $('#image_input').on('submit', `${imageURL}` function())
 
-  // $('body').on('click', '.delete-button', function(){
-  //   this.parentElement.remove()
-  //   console.log('here');
-  //
-  //   })
-
     renderImage = $('#photo-list').append(`<div><image scr= "${imageURL}" id = 'photo-id'></div>`)
     // make "#photo-id dynamic, make a model?"
     $('#photo-id').append(`<p>${captionInput}</p>`)
